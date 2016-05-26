@@ -1,0 +1,32 @@
+## SUCCESSFUL DECRYPTIONS (10/10) ##
+# Babbage/Kasiski Attack #
+C15 = parse("C15.txt") # Turkish: A Rough Guide Dictionary Phrasebook
+print decrypt(C15, "profitableto")
+
+C16 = parse("C16.txt") # Star Wars: A New Hope
+print decrypt(C16, "tickytacky")
+
+C17 = parse("C17.txt") # ?
+print decrypt(C17, "exclaims")
+
+C18 = parse("C18.txt") # The Bonanza Bean: Coffee
+print decrypt(C18, "minibikini")
+
+C19 = parse("C19.txt") # Dracula
+print decrypt(C19, "wakingmomentof")
+
+C20 = parse("C20.txt")
+print decrypt(C20, "roseofiran") #The Door Swings Both Ways: A First Look at China, 1985 OR Video Night in Kathmandu: And Other Reports from the Not-So-Far East
+
+C21 = parse("C21.txt") # Elk problem
+print decrypt(C21, "pictureit")
+
+# Dictionary Attack #
+C52 = parse("C52.txt") # Many women have had to take on the role of breadwinner in the
+print decrypt(C52, "shaven")
+
+C60 = parse("C60.txt") # But we also noted whenever they put down
+print decrypt(C60, "supports")
+
+C61 = parse("C61.txt") # All of the participants were gone
+print decrypt(C61, "arguements") # This is intentionally spelled incorrectly

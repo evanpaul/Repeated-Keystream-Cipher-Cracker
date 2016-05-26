@@ -107,13 +107,7 @@ def fold_and_xor(text, keylength, column):
         if encoding_flag:
             possibilities.append(l)
     # Column number corresponds to letter #
-    #print "Column #"+str(column),"possibilities: ", possibilities
     return possibilities
-
-# Method 2: Frequency analysis on subsets with size of guessed keylength
-# Maybe just talk about this rather than implementing it
-# def subset_histrogram():
-
 # Print one chunk per line
 def print_chunks(arr):
     i = 0
@@ -122,7 +116,6 @@ def print_chunks(arr):
         i+=5
 # Parse bitstream from file into numpy array
 def parse(file_name):
-
     l = []
     with open(file_name) as f:
       while True:
